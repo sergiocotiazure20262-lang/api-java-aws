@@ -38,7 +38,7 @@ jobs:
     deploy:
         name: Publicação
         runs-on: ubuntu-22.04
-        needs: test
+        needs: build
         steps:
           
            - name: Checkout code
